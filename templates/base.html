@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+                
+            </li>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+               <a href="#skills"> Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#achievements">Achievements and Certifications</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Info</a>
+            </li>
+        </ul>
+    </nav>
+
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+</html>

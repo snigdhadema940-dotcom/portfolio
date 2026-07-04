@@ -1,0 +1,470 @@
+{% extends 'base.html' %}
+{% load static %}
+<head>
+    <link href="{% static 'css/style.css' %}">
+</head>
+{% block content %}
+<h1>Dema Snigdha Sree</h1>
+<section id="home">
+    <div id="intro">
+    
+        <h2>Hi, I'm Snigdha</h2><br>
+        B.Tech IT Student | Web Development | Coding
+        <br>
+        <br>
+        A tech enthusiast who loves turning ideas into real projects. I enjoy Python, web development, AI, and blending creativity with technology.
+    <br>
+    <a href="{% static 'files/SNIGDHA-RESUME.pdf.pdf' %}"
+           download
+           class="resume-btn">
+
+           Download Resume ⬇️
+
+        </a>
+    </div>
+    <div id="image">
+        <img id="laptop" src="{% static 'images/laptop.webp' %}">
+    </div>
+</section>
+<section id="about-me">
+
+    <h1>ABOUT ME</h1>
+
+    <div class="about-container">
+
+        <!-- Education Card -->
+
+        <div class="about-card">
+
+            <h3>Education 🎓</h3>
+
+            <p>
+                Currently pursuing B.Tech in Information Technology
+                with a CGPA of 9.45.
+                <br><br>
+
+                Scored 97.1% in Intermediate
+                and achieved 10 GPA in 10th grade.
+            </p>
+
+        </div>
+
+        <!-- GitHub Card -->
+
+        <div class="about-card">
+
+            <h3>
+                <a class="platform"
+                   href="https://github.com/snigdhadema940-dotcom"
+                   target="_blank">
+
+                   GitHub ↗
+
+                </a>
+            </h3>
+
+            <p>
+                A place where I turn ideas into projects,
+                experiment with code, and continuously build
+                my development journey one commit at a time.
+            </p>
+
+        </div>
+
+        <!-- LeetCode Card -->
+
+        <div class="about-card">
+
+            <h3>
+                <a class="platform"
+                   href="https://leetcode.com/SNIGDHA_7---"
+                   target="_blank">
+
+                   LeetCode ↗
+
+                </a>
+            </h3>
+
+            <p>
+                Solving challenges, improving problem-solving skills,
+                and exploring algorithms, logic,
+                and data structures.
+            </p>
+
+        </div>
+
+        <!-- LinkedIn Card -->
+
+        <div class="about-card">
+
+            <h3>
+                <a class="platform"
+                   href="https://www.linkedin.com/in/dema-snigdha-sree-016597370"
+                   target="_blank">
+
+                   LinkedIn ↗
+
+                </a>
+            </h3>
+
+            <p>
+                Sharing my learning journey, connecting with
+                developers and professionals,
+                and growing within the tech community.
+            </p>
+
+        </div>
+
+    </div>
+
+    
+
+</section>
+<section id="skills">
+
+    <h1>TECHNICAL SKILLS</h1>
+
+    <div class="skill-category">
+
+        <h3>💻 Programming Languages</h3>
+
+        <div class="skill-tags">
+            <span>C</span>
+            <span>Java</span>
+            <span>Python</span>
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>🌐 Web Technologies</h3>
+
+        <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Django</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>☕ Java Technologies</h3>
+
+        <div class="skill-tags">
+            <span>JSP</span>
+            <span>JDBC</span>
+            <span>Java Swing</span>
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>🗄️ Databases</h3>
+
+        <div class="skill-tags">
+            <span>SQL</span>
+            <span>SQLite</span>
+            <span>MongoDB</span>
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>📊 Data Visualization</h3>
+
+        <div class="skill-tags">
+            <span>Tableau</span>
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>🛠️ Tools & Platforms</h3>
+
+        <div class="skill-tags">
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>Eclipse</span>
+            <span>Canva</span>
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>🧠 Core Concepts</h3>
+
+        <div class="skill-tags">
+            <span>Problem Solving</span>
+            <span>Data Structures</span>
+            <span>Algorithms</span>
+            <span>Object-Oriented Programming</span>
+            <span>Operating Systems</span>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="projects">
+
+    <h1>PROJECTS</h1>
+
+    <div class="projects-container">
+
+        <div class="project-card featured">
+            <span class="badge">Featured</span>
+
+            <h3>🌱 Carbon Ledger – Quantifying Your Impact</h3>
+
+            <p class="tech">
+                Node.js • Express.js • MongoDB • HTML • CSS • JavaScript
+            </p>
+
+            <ul>
+                <li>Calculated and tracked users' carbon emissions.</li>
+                <li>Maintained historical emission records.</li>
+                <li>Built a platform for environmental awareness events.</li>
+                <li>Developed backend APIs using Express.js and MongoDB.</li>
+            </ul>
+
+            <div class="project-links">
+                <a href="#">GitHub ↗</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>🛒 Online Marketplace Web Application</h3>
+
+            <p class="tech">
+                Django • HTML • CSS
+            </p>
+
+            <ul>
+                <li>Developed a marketplace for buying and selling products.</li>
+                <li>Implemented user authentication and authorization.</li>
+                <li>Created item listing and management functionality.</li>
+                <li>Enabled buyer-seller communication.</li>
+            </ul>
+
+            <div class="project-links">
+                <a href="#">GitHub ↗</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>🚀 Space Explorer Website</h3>
+
+            <p class="tech">
+                JSP • SQL • HTML • CSS
+            </p>
+
+            <ul>
+                <li>Built a dynamic platform for sharing space-related posts.</li>
+                <li>Implemented post creation and viewing features.</li>
+                <li>Integrated SQL database for data storage.</li>
+                <li>Designed responsive frontend pages.</li>
+            </ul>
+
+            <div class="project-links">
+                <a href="#">GitHub ↗</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>🎮 Rock Paper Scissors Game</h3>
+
+            <p class="tech">
+                HTML • CSS • JavaScript
+            </p>
+
+            <ul>
+                <li>Player vs Computer gameplay.</li>
+                <li>Real-time score tracking.</li>
+                <li>Displays choices and match results.</li>
+                <li>Built using JavaScript DOM manipulation.</li>
+            </ul>
+
+            <div class="project-links">
+                <a href="#">GitHub ↗</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>🧮 Calculator Web App</h3>
+
+            <p class="tech">
+                HTML • CSS • JavaScript
+            </p>
+
+            <ul>
+                <li>Supports arithmetic calculations.</li>
+                <li>Handles integers and decimal values.</li>
+                <li>Responsive calculator interface.</li>
+                <li>Built using vanilla JavaScript.</li>
+            </ul>
+
+            <div class="project-links">
+                <a href="#">GitHub ↗</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section id="achievements">
+
+    <h1>ACHIEVEMENTS & CERTIFICATIONS</h1>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+            <h3>🏆 BELLMAN Crown 2K25 Coding Competition</h3>
+            <p>Vasavi College of Engineering</p>
+
+            <a href="{% static 'certificates/bellman.pdf' %}"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+
+        <div class="achievement-card">
+            <h3>🤖 Artificial Intelligence Fundamentals</h3>
+            <p>IBM</p>
+
+            <a href="{% static 'certificates/ibm-ai.pdf' %}"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+
+        <div class="achievement-card">
+            <h3>🌐 Introduction to Modern AI</h3>
+            <p>Cisco</p>
+
+            <a href="https://www.credly.com/earner/earned/badge/11941624-72c3-4713-925d-8457636bb981"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+
+        <div class="achievement-card">
+            <h3>☁️ Amazon Solutions Architecture Simulation</h3>
+            <p>Forage</p>
+
+            <a href="{% static 'certificates/amazon-forage.pdf' %}"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+
+        <div class="achievement-card">
+            <h3>🔐 Deloitte Cyber Job Simulation</h3>
+            <p>Forage</p>
+
+            <a href="{% static 'certificates/deloitte-cyber.pdf' %}"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+        <div class="achievement-card">
+            <h3>Participation Certificate in NaukriCampus Codequezt #28</h3>
+            <p>NaukriCampus</p>
+
+            <a href="{% static 'certificates/naukricampus.pdf' %}"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+        <div class="achievement-card">
+            <h3>JIJNASA Poster Presentation</h3>
+            <p>Bhoj Reddy Engineering College</p>
+
+            <a href="{% static 'certificates/jijnasa.pdf' %}"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+        <div class="achievement-card">
+            <h3>Gemini-Pitch Night Edition</h3>
+            <p>Bhoj Reddy Engineering College(Google Student Ambassador)</p>
+
+            <a href="{% static 'certificates/Snigdha.pdf' %}"
+               target="_blank">
+                View Certificate ↗
+            </a>
+        </div>
+
+
+    </div>
+
+</section>
+<section id="contact">
+
+    <h1>CONTACT INFO</h1>
+
+    <div class="contact-container">
+
+        <div class="contact-item">
+
+            <h3>Email ✉️</h3>
+
+            <p>
+                Feel free to reach out for collaborations,
+                projects.
+            </p>
+
+            <a href="mailto:snigdhadema940@gmail.com">
+                snigdhadema940@gmail.com
+            </a>
+
+        </div>
+
+        <div class="contact-item">
+
+            <h3>LinkedIn 💼</h3>
+
+            <p>
+                Connect with me professionally
+                and follow my learning journey.
+            </p>
+
+            <a href="https://www.linkedin.com/in/dema-snigdha-sree-016597370"
+               target="_blank">
+
+               Visit Profile ↗
+
+            </a>
+
+        </div>
+
+        <div class="contact-item">
+
+            <h3>GitHub 💻</h3>
+
+            <p>
+                Explore my projects, experiments,
+                and coding journey.
+            </p>
+
+            <a href="https://github.com/snigdhadema940-dotcom"
+               target="_blank">
+
+               View GitHub ↗
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+{% endblock %}
